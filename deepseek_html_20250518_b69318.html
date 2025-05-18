@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams | Кондитерская</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Sweet Dreams</div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Главная</a>
+                <a href="#catalog" class="nav-link">Каталог</a>
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#reviews" class="nav-link">Отзывы</a>
+                <a href="#order" class="nav-link">Заказать</a>
+            </nav>
+            <div class="mobile-menu-btn">☰</div>
+        </div>
+    </header>
+
+    <!-- Герой-секция (акции) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Наши десерты — ваше счастье!</h1>
+            <p>Попробуйте торты ручной работы и ПП-десерты без сахара.</p>
+            <button class="btn">Акции для первого заказа</button>
+        </div>
+    </section>
+
+    <!-- Каталог (превью категорий) -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2>Каталог</h2>
+            <div class="categories">
+                <div class="category" onclick="openCategory('cakes')">
+                    <img src="img/cakes.jpg" alt="Торты">
+                    <h3>Торты</h3>
+                </div>
+                <div class="category" onclick="openCategory('cupcakes')">
+                    <img src="img/cupcakes.jpg" alt="Кексы">
+                    <h3>Кексы</h3>
+                </div>
+                <!-- Аналогично для других категорий -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <a href="https://wa.me/79991234567" class="social-link">WhatsApp</a>
+                <a href="https://vk.com/sweetdreams" class="social-link">VK</a>
+            </div>
+            <p>© 2024 Sweet Dreams</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
